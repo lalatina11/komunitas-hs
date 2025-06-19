@@ -89,7 +89,35 @@
                 <a href="login.php" class="btn btn-warning w-fit">Gabung Sekarang ➚</a>
             </div>
         </section>
-
+        <section id="faq" class="flex flex-col justify-center items-center gap-32 my-[75px]">
+            <div class="flex flex-col justify-center items-center gap-[10px] max-w-[664px]">
+                <span class="text-[#454545] font-[800] text-[40px]">Frequently Asked Question</span>
+                <span class="text-[#A19D9D] font-[600] text-[20px]">Mungkin anda masih bertanya-tanya mengenai apa itu
+                    HypeSphere, berikut beberapa pertanyaan yang
+                    mungkin bisa membantu anda! Butuh bantuan lainnya? Klik disini</span>
+            </div>
+            <div class="max-w-[675px]">
+                <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title font-semibold">Bagaimana cara mengakses aplikasi ini?</div>
+                    <div class="collapse-content text-sm">Bagi pengguna baru, anda bisa mendaftarkan diri anda dengan
+                        mendaftarkan akun pada menu Daftar disini. Dan bagi anda yang sudah mendaftar, anda cukup masuk
+                        dengan email dan password yang telah anda daftarkan sebelumnya</div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title font-semibold">Bagaimana cara mengubah kata sandi?</div>
+                    <div class="collapse-content text-sm">Anda bisa pergi ke halaman akun anda dan pilih opsi “Ubah kata
+                        sandi”, lalu anda dapat mengubah kata sandi anda yang lama dengan kata sandi yang baru</div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title font-semibold">Apakah aplikasi ini aman digunakan?</div>
+                    <div class="collapse-content text-sm">Ya, aplikasi ini sudah terjamin keamanannya. Anda juga tidak
+                        perlu khawatir terkait keamanan data, karena privasi anda adalah prioritas kami</div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
