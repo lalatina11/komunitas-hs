@@ -10,7 +10,7 @@
 
 <body>
     <nav class="w-full">
-        <div class="navbar bg-base-100 w-4/5 mx-auto">
+        <div class="navbar bg-base-100 w-11/12 mx-auto">
             <div class="navbar-start">
                 <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -36,12 +36,13 @@
                 </ul>
             </div>
             <div class="navbar-end">
+                <?php include "components/darkmode.php" ?>
                 <a class="btn btn-neutral">Gabung Sekarang ➚</a>
             </div>
         </div>
     </nav>
 
-    <main class="flex flex-col justify-center items-center my-8 p-4 px-10">
+    <main class="flex flex-col justify-center items-center my-8 p-4 px-10 w-11/12 mx-auto">
         <section id="jelajahi" class="relative">
             <img src="assets/images/bg-jelajahi.svg" alt="bg" class="flex-1 relative z-1" />
             <div class="absolute top-40 z-2 left-20 max-w-[632px] flex flex-col gap-[30px]">
@@ -55,20 +56,20 @@
                 </span>
                 <a href="login.php" class="btn btn-warning w-fit">Gabung Sekarang ➚</a>
             </div>
-            <section id="tentangkami" class="relative flex flex-col my-32">
-                <button class="btn rounded-full w-fit btn-accent px-6">⦁ Tentang Kami</button>
-                <div class="flex justify-between gap-16 my-20 text-zinc-500">
-                    <span class="font-[800] text-[40px] min-w-[484px]">
-                        Komunitas Dari Berbagai Macam Daerah
-                    </span>
-                    <span>
-                        Kami memberikan akses tanpa batas kepada pengguna, yang bisa menghubungkan seluruh pengguna dari
-                        berbagai daerah
-                    </span>
-                    <a href="login.php" class="btn btn-warning w-fit">Gabung Sekarang ➚</a>
-                </div>
-                <img src="/assets/images/tentang-kami.svg" class="w-[83.2%] m-auto" alt="">
-            </section>
+        </section>
+        <section id="tentangkami" class="relative flex flex-col my-32">
+            <button class="btn rounded-full w-fit btn-accent px-6">⦁ Tentang Kami</button>
+            <div class="flex justify-between gap-16 my-20 text-zinc-500">
+                <span class="font-[800] text-[40px] min-w-[484px]">
+                    Komunitas Dari Berbagai Macam Daerah
+                </span>
+                <span>
+                    Kami memberikan akses tanpa batas kepada pengguna, yang bisa menghubungkan seluruh pengguna dari
+                    berbagai daerah
+                </span>
+                <a href="login.php" class="btn btn-warning w-fit">Gabung Sekarang ➚</a>
+            </div>
+            <img src="/assets/images/tentang-kami.svg" class="w-[83.2%] m-auto" alt="">
         </section>
     </main>
 </body>
