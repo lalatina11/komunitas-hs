@@ -55,6 +55,20 @@
                 </span>
                 <a href="login.php" class="btn btn-warning w-fit">Gabung Sekarang ➚</a>
             </div>
+            <section id="tentangkami" class="relative flex flex-col my-32">
+                <button class="btn rounded-full w-fit btn-accent px-6">⦁ Tentang Kami</button>
+                <div class="flex justify-between gap-16 my-20 text-zinc-500">
+                    <span class="font-[800] text-[40px] min-w-[484px]">
+                        Komunitas Dari Berbagai Macam Daerah
+                    </span>
+                    <span>
+                        Kami memberikan akses tanpa batas kepada pengguna, yang bisa menghubungkan seluruh pengguna dari
+                        berbagai daerah
+                    </span>
+                    <a href="login.php" class="btn btn-warning w-fit">Gabung Sekarang ➚</a>
+                </div>
+                <img src="/assets/images/tentang-kami.svg" class="w-[83.2%] m-auto" alt="">
+            </section>
         </section>
     </main>
 </body>
