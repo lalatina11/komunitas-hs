@@ -13,3 +13,5 @@
     }
 </style>
 <!-- Manrope Font End -->
+<!-- Font Awasome -->
+<script src="https://kit.fontawesome.com/40363c613f.js" crossorigin="anonymous"></script>
