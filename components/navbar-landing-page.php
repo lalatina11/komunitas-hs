@@ -7,7 +7,7 @@
         <a href="#faq" class="font-[600] text-[16px] text-zinc-500">Pusat Bantuan</a>
     </nav>
     <div class="flex gap-2 items-center">
-        <?php include "./darkmode.php" ?>
+        <?php include "darkmode.php" ?>
         <a href="/login.php" class="btn btn-neutral">Gabung Sekarang</a>
     </div>
 </header>
