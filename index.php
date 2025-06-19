@@ -9,10 +9,41 @@
 </head>
 
 <body>
-    <?php include "./components/navbar-landing-page.php" ?>
+    <nav class="w-full">
+        <div class="navbar bg-base-100 w-4/5 mx-auto">
+            <div class="navbar-start">
+                <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                </div>
+                <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    <li><a>Tentang Kami</a></li>
+                    <li><a>Jelajahi</a></li>
+                    <li><a>FAQ</a></li>
+                    <li><a>Pusat Bantuan</a></li>
+                </ul>
+                </div>
+                <a class="font-medium text-[24px]">Hype<span class="font-normal">Sphere</span></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-[16px] font-medium text-[#8c8c8c]">
+                    <li><a>Tentang Kami</a></li>
+                    <li><a>Jelajahi</a></li>
+                    <li><a>FAQ</a></li>
+                    <li><a>Pusat Bantuan</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn btn-neutral">Gabung Sekarang ➚</a>
+            </div>
+        </div>
+    </nav>
+
     <main class="flex flex-col justify-center items-center my-8 p-4 px-10">
         <section id="jelajahi" class="relative">
-            <img src="/assets/images/bg-jelajahi.svg" alt="bg" class="flex-1 relative z-1" />
+            <img src="assets/images/bg-jelajahi.svg" alt="bg" class="flex-1 relative z-1" />
             <div class="absolute top-40 z-2 left-20 max-w-[632px] flex flex-col gap-[30px]">
                 <span class="text-[#FAFF9A] font-[800] text-[48px]">
                     Jelajahi Berbagai Komunitas Diseluruh
