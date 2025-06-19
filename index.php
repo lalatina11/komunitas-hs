@@ -13,17 +13,20 @@
         <div class="navbar bg-base-100 w-11/12 mx-auto">
             <div class="navbar-start">
                 <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-                </div>
-                <ul
-                    tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a>Tentang Kami</a></li>
-                    <li><a>Jelajahi</a></li>
-                    <li><a>FAQ</a></li>
-                    <li><a>Pusat Bantuan</a></li>
-                </ul>
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Tentang Kami</a></li>
+                        <li><a>Jelajahi</a></li>
+                        <li><a>FAQ</a></li>
+                        <li><a>Pusat Bantuan</a></li>
+                    </ul>
                 </div>
                 <a class="font-medium text-[24px]">Hype<span class="font-normal">Sphere</span></a>
             </div>
@@ -71,6 +74,22 @@
             </div>
             <img src="/assets/images/tentang-kami.svg" class="w-[83.2%] m-auto" alt="">
         </section>
+        <section id="pusatbantuan" class="relative flex flex-col justify-center items-center mt-20">
+            <img src="assets/images/pusat-bantuan/110679.svg" alt="">
+            <img src="assets/images/pusat-bantuan/Group 3.svg" class="absolute left-20 top-28" alt="">
+            <img src="assets/images/pusat-bantuan/Frame 27.svg" class="absolute left-[303px] top-[149px]" alt="">
+            <img src="assets/images/pusat-bantuan/Frame 28.svg" class="absolute left-[294px] top-[238px]" alt="">
+            <img src="assets/images/pusat-bantuan/Frame 26.svg" class="absolute left-[342px] top-[394px]" alt="">
+            <div class="absolute left-[647px] top-[105px] h-[334px] flex flex-col justify-between">
+                <button class="btn rounded-full w-fit btn-accent px-6">⦁ Jelajahi</button>
+                <span class="font-[800] text-[40px] text-[#FAFF9A]">Temukan Lebih Banyak Komunitas</span>
+                <span class="font-[600] text-[20px] text-primary-content">Banyak pengguna yang ingin menjelajahi
+                    berbagai daerah hanya dari rumah, kami hadir untuk mempermudah akses semua pengguna dalam satu
+                    aplikasi</span>
+                <a href="login.php" class="btn btn-warning w-fit">Gabung Sekarang ➚</a>
+            </div>
+        </section>
+
     </main>
 </body>
 
