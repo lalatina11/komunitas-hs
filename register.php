@@ -10,16 +10,20 @@
 
 <body>
     <main class="flex justify-center items-center w-full h-screen">
-        <div class="flex w-5/6 mx-auto">
+        <div class="flex items-center w-5/6 mx-auto">
             <div class="w-1/2">
                 <img src="assets/images/images_on_auth.png" class="block mx-auto" alt="" srcset="">
             </div>
             <div class="w-1/2">
                 <div class="mb-8">
-                    <h2 class="text-3xl font-bold text-[#454545]">Masuk dengan akun anda</h2>
+                    <h2 class="text-3xl font-bold text-[#454545]">Daftar dengan akun anda</h2>
                     <p class="text-xl text-[#404040]">Masukkan email dan kata sandi anda untuk melanjutkan</p>
                 </div>
                 <form action="" method="post">
+                    <fieldset class="fieldset mb-3">
+                        <legend class="fieldset-legend text-lg">Nama Pengguna</legend>
+                        <input type="text" class="input input-lg w-4/5" placeholder="Masukan nama anda" />
+                    </fieldset>
                     <fieldset class="fieldset mb-3">
                         <legend class="fieldset-legend text-lg">Email</legend>
                         <input type="text" class="input input-lg w-4/5" placeholder="Masukan email anda" />
@@ -31,7 +35,7 @@
                     <p class="text-[#A0A0A0]">Lupa kata sandi ? <a href="">ubah disini</a></p>
                     <div class="w-4/5 mt-4">
                         <button class="btn btn-neutral w-full mb-3" type="submit">Masuk</button>
-                        <p class="text-center">Belum punya akun ? <a href="register.php">daftar disini</a></p>
+                        <p class="text-center">Sudah punya akun ? <a href="login.php">masuk disini</a></p>
                     </div>
                     <div class="w-4/5 relative mt-12">
                         <hr class="border-[#D1D1D1]">
