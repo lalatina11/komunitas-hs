@@ -40,7 +40,7 @@
             </div>
             <div class="navbar-end">
                 <?php include "components/darkmode.php" ?>
-                <a class="btn btn-neutral">Gabung Sekarang ➚</a>
+                <a href="login.php" class="btn btn-neutral">Gabung Sekarang ➚</a>
             </div>
         </div>
     </nav>
