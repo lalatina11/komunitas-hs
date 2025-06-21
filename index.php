@@ -37,7 +37,7 @@
             </div>
             <div class="navbar-end">
                 <?php include "components/darkmode.php" ?>
-                <a class="btn btn-neutral">Gabung Sekarang ➚</a>
+                <a href="register.php" class="btn btn-neutral">Gabung Sekarang ➚</a>
             </div>
         </div>
     </nav>
@@ -54,7 +54,7 @@
                     Kami memberi akses kepada penngguna untuk memudahkan mereka dalam berkomunikasi dari berbagai
                     macam daerah yang ada di seluruh Indonesia
                 </span>
-                <a href="login.php" class="btn btn-warning w-fit">Gabung Sekarang ➚</a>
+                <a href="register.php" class="btn btn-warning w-fit">Gabung Sekarang ➚</a>
             </div>
         </section>
         <section id="tentangkami" class="relative flex flex-col my-32">
@@ -67,7 +67,7 @@
                     Kami memberikan akses tanpa batas kepada pengguna, yang bisa menghubungkan seluruh pengguna dari
                     berbagai daerah
                 </span>
-                <a href="login.php" class="btn btn-warning w-fit">Gabung Sekarang ➚</a>
+                <a href="register.php" class="btn btn-warning w-fit">Gabung Sekarang ➚</a>
             </div>
             <img src="/assets/images/tentang-kami.svg" class="w-[83.2%] m-auto" alt="">
         </section>
