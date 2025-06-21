@@ -12,3 +12,4 @@ $name = $_SESSION['name'];
 
 <h2>Selamat datang, <?= htmlspecialchars($name) ?>!</h2>
 <p>Ini adalah halaman dashboard.</p>
+<a href="action/logout_action.php">Keluar</a>
