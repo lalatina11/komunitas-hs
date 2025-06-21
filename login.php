@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HypeSphere | Login</title>
+    <title>HypeSphere | Masuk</title>
     <?php include "./components/scripts/index.php" ?>
 </head>
 
@@ -19,14 +19,14 @@
                     <h2 class="text-3xl font-bold text-[#454545]">Masuk dengan akun anda</h2>
                     <p class="text-xl text-[#404040]">Masukkan email dan kata sandi anda untuk melanjutkan</p>
                 </div>
-                <form action="" method="post">
+                <form action="action/login_action.php" method="post">
                     <fieldset class="fieldset mb-3">
                         <legend class="fieldset-legend text-lg">Email</legend>
-                        <input type="text" class="input input-lg w-4/5" placeholder="Masukan email anda" />
+                        <input type="text" class="input input-lg w-4/5" name="email" placeholder="Masukan email anda" />
                     </fieldset>
                     <fieldset class="fieldset mb-3">
                         <legend class="fieldset-legend text-lg">Kata Sandi</legend>
-                        <input type="text" class="input input-lg w-4/5" placeholder="Masukan kata sandi anda" />
+                        <input type="password" class="input input-lg w-4/5" name="password" placeholder="Masukan kata sandi anda" />
                     </fieldset>
                     <p class="text-[#A0A0A0]">Lupa kata sandi ? <a href="">ubah disini</a></p>
                     <div class="w-4/5 mt-4">
@@ -37,7 +37,7 @@
                         <hr class="border-[#D1D1D1]">
                         <p class="absolute -top-3 left-40 bg-white px-5 text-[#D1D1D1]">Atau masuk menggunakan</p>
                     </div>
-                    <button class="btn btn-outline w-4/5 mt-6" type="submit"><i class="fa-brands fa-google"></i> Masuk dengan Google</button>
+                    <button class="btn btn-outline w-4/5 mt-6"><i class="fa-brands fa-google"></i> Masuk dengan Google</button>
                 </form>
             </div>
         </div>
