@@ -33,11 +33,11 @@ require  "action/register_action.php";
                     </fieldset>
                     <fieldset class="fieldset mb-3">
                         <legend class="fieldset-legend text-lg">Kata Sandi</legend>
-                        <input type="text" class="input input-lg w-4/5" name="password" placeholder="Masukan kata sandi anda" />
+                        <input type="password" class="input input-lg w-4/5" name="password" placeholder="Masukan kata sandi anda" />
                     </fieldset>
                     <p class="text-[#A0A0A0]">Lupa kata sandi ? <a href="">ubah disini</a></p>
                     <div class="w-4/5 mt-4">
-                        <button class="btn btn-neutral w-full mb-3" type="submit">Masuk</button>
+                        <button class="btn btn-neutral w-full mb-3" type="submit">Daftar</button>
                         <p class="text-center">Sudah punya akun ? <a href="login.php">masuk disini</a></p>
                     </div>
                     <div class="w-4/5 relative mt-12">
