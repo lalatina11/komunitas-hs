@@ -1,5 +1,5 @@
 <?php
-require  "action/register_action.php";
+require "action/register_action.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,42 +12,50 @@ require  "action/register_action.php";
 </head>
 
 <body>
-    <main class="flex justify-center items-center w-full h-screen">
-        <div class="flex items-center w-5/6 mx-auto">
-            <div class="w-1/2">
-                <img src="assets/images/images_on_auth.png" class="block mx-auto" alt="" srcset="">
+    <main class="flex justify-center items-center w-full min-h-screen p-4">
+        <div class="flex flex-col md:flex-row w-full md:w-5/6 lg:w-3/4 max-w-6xl mx-auto bg-white shadow-md rounded-xl overflow-hidden">
+            <!-- Gambar -->
+            <div class="w-full md:w-1/2 hidden md:block">
+                <img src="assets/images/images_on_auth.png" class="w-full h-full object-cover" alt="Auth Image">
             </div>
-            <div class="w-1/2">
+
+            <!-- Form -->
+            <div class="w-full md:w-1/2 p-6 sm:p-10">
                 <div class="mb-8">
-                    <h2 class="text-3xl font-bold text-[#454545]">Daftar dengan akun anda</h2>
-                    <p class="text-xl text-[#404040]">Masukkan email dan kata sandi anda untuk melanjutkan</p>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-[#454545]">Daftar dengan akun anda</h2>
+                    <p class="text-base sm:text-xl text-[#404040]">Masukkan email dan kata sandi anda untuk melanjutkan</p>
                 </div>
                 <form action="" method="post">
-                    <fieldset class="fieldset mb-3">
-                        <legend class="fieldset-legend text-lg">Nama Pengguna</legend>
-                        <input type="text" class="input input-lg w-4/5" name="name" placeholder="Masukan nama anda" />
+                    <fieldset class="fieldset mb-4">
+                        <legend class="fieldset-legend text-base sm:text-lg">Nama Pengguna</legend>
+                        <input type="text" class="input input-lg w-full" name="name" placeholder="Masukan nama anda" />
                     </fieldset>
-                    <fieldset class="fieldset mb-3">
-                        <legend class="fieldset-legend text-lg">Email</legend>
-                        <input type="text" class="input input-lg w-4/5" name="email" placeholder="Masukan email anda" />
+                    <fieldset class="fieldset mb-4">
+                        <legend class="fieldset-legend text-base sm:text-lg">Email</legend>
+                        <input type="text" class="input input-lg w-full" name="email" placeholder="Masukan email anda" />
                     </fieldset>
-                    <fieldset class="fieldset mb-3">
-                        <legend class="fieldset-legend text-lg">Kata Sandi</legend>
-                        <input type="password" class="input input-lg w-4/5" name="password" placeholder="Masukan kata sandi anda" />
+                    <fieldset class="fieldset mb-4">
+                        <legend class="fieldset-legend text-base sm:text-lg">Kata Sandi</legend>
+                        <input type="password" class="input input-lg w-full" name="password" placeholder="Masukan kata sandi anda" />
                     </fieldset>
-                    <p class="text-[#A0A0A0]">Lupa kata sandi ? <a href="">ubah disini</a></p>
-                    <div class="w-4/5 mt-4">
+                    <p class="text-[#A0A0A0] text-sm mb-2">Lupa kata sandi ? <a href="#" class="text-blue-500 hover:underline">ubah disini</a></p>
+                    <div class="mt-4">
                         <button class="btn btn-neutral w-full mb-3" type="submit">Daftar</button>
-                        <p class="text-center">Sudah punya akun ? <a href="login.php">masuk disini</a></p>
+                        <p class="text-center text-sm">Sudah punya akun ? <a href="login.php" class="text-blue-500 hover:underline">masuk disini</a></p>
                     </div>
-                    <div class="w-4/5 relative mt-12">
+
+                    <div class="relative mt-10 mb-6">
                         <hr class="border-[#D1D1D1]">
-                        <p class="absolute -top-3 left-40 bg-white px-5 text-[#D1D1D1]">Atau masuk menggunakan</p>
+                        <p class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white px-4 text-[#D1D1D1] text-sm">Atau masuk menggunakan</p>
                     </div>
-                    <button class="btn btn-outline w-4/5 mt-6"><i class="fa-brands fa-google"></i> Masuk dengan Google</button>
+
+                    <button class="btn btn-outline w-full flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-google"></i> Masuk dengan Google
+                    </button>
                 </form>
             </div>
         </div>
     </main>
 </body>
+
 </html>
